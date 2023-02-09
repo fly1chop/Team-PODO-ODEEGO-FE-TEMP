@@ -1,38 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
-
+### 1. 프로젝트 빌드하는 방법
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm run start
 ```
+- npm run dev : 개발 모드에서 앱 실행 
+- npm start : 프로덕션 모드(배포모드)에서 앱 실행 (npm run start 사용하려면 먼저 npm build 실행 후 최적화 진행 후 실행해야함)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Cypress 빌드하는 방법
+```bash
+npm run cypress
+```
+    
+- e2e 폴더 들어가기
+- 1-getting-started 폴더 들어가기
+- 원하는 파일 만들고 테스트 코드 작성
+- npm run cypress 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### 폴더 구조
+Next.js 13 버전에 따라서 app 구조로 유지
+pages 폴더를 app 컴포넌트 내부에 둠으로써 view, component 분리
+(추후에 변경해도 상관없음)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### ESlit , Prettier
+규칙을 어느정도 빡빡하지 않고 느슨하게 다시 정하고 rule 추가해야할 듯 함
+(현재 간단하게 설정하였음)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
