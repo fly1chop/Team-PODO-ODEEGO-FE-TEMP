@@ -1,4 +1,3 @@
-import './globals.css';
 import React from "react";
 import ReactQueryWrapper from "@/app/ReactQueryWrapper";
 import Recoil from "@/app/Recoil";

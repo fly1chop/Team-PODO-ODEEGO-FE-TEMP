@@ -7,3 +7,4 @@ describe('Navgation',()=>{
        cy.get('h1').contains('AboutPage');
    })
 });
+
