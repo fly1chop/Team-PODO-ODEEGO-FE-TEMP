@@ -1,15 +1,14 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
-const Todo=()=>{
-    return (
-        <>
-            <Title>하이</Title>
-        </>
-    )
-}
+const Todo = () => {
+  return (
+    <>
+      <Title>하이</Title>
+    </>
+  );
+};
 export default Todo;
 
-
-const Title =styled.h1`
-  color :red    
-`
+const Title = styled.h1`
+  color: red;
+`;

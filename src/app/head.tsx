@@ -1,10 +1,4 @@
-
 export default function Head() {
-
-    // [ ] : emiton styled component
-    // [ ] : react query
-    // [ ] : recoil
-
   return (
     <>
       <title>Create Next App</title>
@@ -14,4 +8,3 @@ export default function Head() {
     </>
   );
 }
-
