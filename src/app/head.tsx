@@ -1,5 +1,9 @@
+
 export default function Head() {
 
+    // [ ] : emiton styled component
+    // [ ] : react query
+    // [ ] : recoil
 
   return (
     <>
@@ -10,3 +14,4 @@ export default function Head() {
     </>
   );
 }
+
