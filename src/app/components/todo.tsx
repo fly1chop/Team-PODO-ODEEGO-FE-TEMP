@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 
 const Todo=()=>{
-
     return (
         <>
             <Title>하이</Title>
