@@ -25,7 +25,7 @@ pages 폴더를 app 컴포넌트 내부에 둠으로써 view, component 분리
 (추후에 변경해도 상관없음)
 
 
-### ESlit , Prettier
+### ESlint , Prettier
 규칙을 어느정도 빡빡하지 않고 느슨하게 다시 정하고 rule 추가해야할 듯 함
 (현재 간단하게 설정하였음)
 
